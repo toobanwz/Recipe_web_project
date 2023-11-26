@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="finalstyle.css">
+    <title>Breakfast</title>
+    <style>
+        .image{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 540px;
+            background-image: url(images/strawberry.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="intro">
+        <div class="image"></div>
+        <div class="brief">
+            <h1 style="padding-top: 12px;">Strawberry Milkshake</h1>
+            <p style="opacity: 0.9;">
+                Prep Time : 10 minutes&nbsp;|&nbsp;
+                Total Time : 10 minutes 
+            </p>
+        </div>
+        <p style="font-size: 18px; margin-top: 20px; text-align: center;">
+            A sweet and refreshing strawberry milkshake is the perfect drink for summer. 
+            They can be enjoyed as a healthy breakfast beverage, for an energizing snack or even as a light(er) dessert.
+        </p>
+        <div class="tags">
+            <p> Servings: 2 &nbsp;|&nbsp;
+                Calories : 261 &nbsp;|&nbsp;
+                Course: Brevages/Breakfast &nbsp;|&nbsp;
+                Cuisine: World &nbsp;|&nbsp;
+                Diet: Gluten-Free, Vegetarian
+        </div>
+        <div class="options">
+            <button id="saveFile" onclick="printPage()">Print recipe&nbsp;&nbsp;<i class="fa-solid fa-download"></i></button>
+            <div class="share-container">
+                <button id="share-button" onclick="changeColor()">Share Recipe&nbsp;&nbsp;<i class="fa-solid fa-share"></i></button>
+                <div class="share-icons">
+                    <a href="#" id="facebook-share" style="color: rgb(0, 89, 255);"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" id="instagram-share" style="color: rgb(255, 0, 157);"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" id="whatsApp-share" style="color: rgb(0, 214, 0);"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="directions">
+        
+        <div class="ingredients">
+            <br/><h1>Ingredients</h1><br/>
+            <p>250 grams <span class="color">strawberries</span> or 22 to 25 small to medium strawberries<br/><br/>
+                2 cups <span class="color">milk</span> cold or chilled, you can also add 2.5 cups milk<br/><br/>
+                3 to 4 tablespoons raw sugar or any <span class="color">sweetener</span> of choice – add as required, optional<br/><br/>
+                2 to 3 scoops strawberry<span class="color"> ice cream</span> or vanilla ice cream, optional<br/><br/>
+            </p>
+        </div><br/>
+
+        <div class="instructions">
+            <h1 style="margin-left: 40px;">Instructions</h1><br/>
+            <ol>
+                <li>&nbsp; First rinse the strawberries very well in water using a strainer or colander. Drain all of the water.</li><br/>
+                <li>&nbsp; Slice off the green leafy part from all the strawberries. Then chop the strawberries.</li> <br/>
+                <li>&nbsp; Add the chopped strawberries to a blender together with 2 cups of cold or chilled milk.</li><br/>
+                <li>&nbsp; Optionally add the raw sugar or as needed. If the strawberries are very sweet, then you don't need to add any sugar or sweetener of choice.</li><br/>
+                <li>&nbsp; To make a thicker and creamier shake, add 2 to 3 scoops of vanilla or strawberry ice cream in the blender.</li><br/>
+                <li>&nbsp; Blend until smooth.</li><br/>
+                <li>&nbsp; Pour in tall glasses and serve strawberry milkshake immediately. You can also add a scoop of vanilla ice cream or strawberry ice cream and have a strawberry ice cream shake.<br/>
+                
+            </ol>
+        </div>
+    </div>
+    <button id="back" onclick="window.history.back()">Go Back</button>
+
+    <script src="finalscript.js"></script>
+</body>
+</html>

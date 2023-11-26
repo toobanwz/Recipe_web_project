@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+body{
+    background-image: url('backend.jpg');
+    background-size: cover;
+}
+.intro{
+    margin: auto;
+    width: 70%;
+}
+.brief{
+    width: 650px;
+    height: 90px;
+    margin: auto;
+    text-align: center;
+    margin-top: 500px;
+    background-color: seagreen;
+    color: white;
+}
+.options{
+    margin: auto;
+    width: 55%;
+}
+#saveFile{
+    width: 245px;
+    height: 45px;
+    margin: 0 30px 0 25px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(223, 70, 70);
+}
+.share-container{
+    position: relative;
+    top: -45px;
+    left: 300px;
+    width: 245px;
+    height: 42px;
+    border-radius: 50px;
+    background-color: rgb(223, 70, 70);
+}
+.share-container button{
+    width: 245px;
+    height: 42px;
+    border-radius: 50px;
+    text-align: center;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.share-icons {
+    display: none;
+    position: absolute;
+    top: -50px;
+    right: -77px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.share-icons a {
+    display: block;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+.share-icons a i {
+    font-size: 35px;
+    margin: 0 auto;
+}
+.tags{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.directions{
+    margin: 25px 100px 20px 100px;
+    display: flex;
+    float: left;
+    border-top: 2px solid black;
+}
+.color{
+    color: rgb(81, 164, 94);
+} 
+.ingredients{
+    width: 600px;
+    padding-left: 20px;
+    border-right: 2px solid black;
+}
+.instructions{
+    margin: 20px 0 20px 20px;
+}
+#back{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(55, 83, 67);
+}
+#back:hover{
+    background-color: rgb(76, 134, 93);
+}
+
+.share-buttons {
+    display: flex;
+    gap: 10px;
+ }
+ .share-button {
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 16px;
+ }
+.button-change {
+    background-color: #000000; /* Temporary color */
+}
+.facebook {
+    background-color: #3b5998;
+ }
+ .twitter {
+    background-color: #1da1f2;
+ }
+ .linkedin {
+    background-color: #0077b5;
+ }
+ .pinterest {
+    background-color: #bd081c;
+ }
+ .reddit {
+    background-color: #ff4500;
+ }
+ .whatsapp {
+    background-color: #25d366;
+ }
+@media print {
+    .intro {
+        display: none;
+    }
+    #back{
+        display: none;
+    }
+}

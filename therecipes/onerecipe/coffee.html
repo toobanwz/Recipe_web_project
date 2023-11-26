@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="finalstyle.css">
+    <title>Breakfast</title>
+    <style>
+        .image{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 540px;
+            background-image: url(images/coffee.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="intro">
+        <div class="image"></div>
+        <div class="brief">
+            <h1 style="padding-top: 12px;">Hot Coffee</h1>
+            <p style="opacity: 0.9;">minutesPrep Time : 5 minutes&nbsp;|&nbsp;
+                Cook Time : 5 minutes minutes&nbsp;|&nbsp;Total Time : 10 minutes </p>
+        </div>
+        <p style="font-size: 18px; margin-top: 20px; text-align: center;">
+            Creamy, cozy, and deliciously frothy, perfect way to give yourself a little pick-me-up.
+        </p>
+        <div class="tags">
+            <p> Servings: 1 &nbsp;|&nbsp;
+                Calories : 224 &nbsp;|&nbsp;
+                Course: Breverages &nbsp;|&nbsp;
+                Cuisine: International &nbsp;|&nbsp;
+                Diet: Gluten-Free, Vegetarian
+        </div>
+        <div class="options">
+            <button id="saveFile" onclick="printPage()">Print recipe&nbsp;&nbsp;<i class="fa-solid fa-download"></i></button>
+            <div class="share-container">
+                <button id="share-button" onclick="changeColor()">Share Recipe&nbsp;&nbsp;<i class="fa-solid fa-share"></i></button>
+                <div class="share-icons">
+                    <a href="#" id="facebook-share" style="color: rgb(0, 89, 255);"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" id="instagram-share" style="color: rgb(255, 0, 157);"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" id="whatsApp-share" style="color: rgb(0, 214, 0);"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="directions">
+        
+        <div class="ingredients">
+            <br/><h1>Ingredients</h1><br/>
+            <p>1.5 teaspoons instant <span class="color">coffee</span> (nescafe or your preferred brand)<br/><br/>
+                1.5 tablespoons <span class="color">sugar</span> or add as per taste<br/><br/>
+                3 tablespoons water (hot)<br/><br/>
+                1 cup <span class="color">milk</span><br/><br/>
+            </p>
+        </div><br/>
+
+        <div class="instructions">
+            <h1 style="margin-left: 40px;">Instructions</h1><br/>
+            <ol>
+                <li>&nbsp; In a cup add the instant coffee and sugar.</li><br/>
+                <li>&nbsp; Add 3 tablespoons hot boiling water.</li> <br/>
+                <li>&nbsp; First mix the coffee and sugar with water and begin to stir briskly and beat coffee with a spoon for 3 to 4 minutes. </li><br/>
+                <li>&nbsp; Beat the coffee till its color lightens and you see a frothy layer on top.</li><br/>
+                <li>&nbsp; Then take 1 cup milk in a small but heavy sauce pan and on a medium to medium-high heat boil it.</li><br/>
+                <li>&nbsp; When the milk comes to boil pour the milk in a glass jar or a thermos flask.</li><br/>
+                <li>&nbsp; Do not use any plastic bottle or jar. You can use a steel bottle also. A glass jar with a handle helps while shaking as the milk is hot.<br/>
+                <br/><li>&nbsp; Now shake the jar vigorously for 1 to 2 minutes. Alternatively to get the froth on milk, you can also use a handheld frother. Milk can be blended in a blender also.</li><br/>
+                <li>&nbsp; There should be a nice layer of frothy foam on the milk.</li><br/>
+                <li>&nbsp; Pour the foamy milk in the cup containing coffee.</li><br/>
+                <li>&nbsp; After adding ⅓ or ½ of the milk to the coffee, stir with a spoon. You can even swirl the cup gently so that the milk get mixed with the coffee.</li><br/>
+                <li>&nbsp; Then pour remaining milk together with the frothy layer. </li><br/>
+                <li>&nbsp; Serve cafe style coffee straightway.</li><br/>
+                <li>&nbsp; You can even sprinkle some ground cinnamon powder or cocoa powder on top. Enjoy this homemade cafe style coffee. </li><br/>
+            </ol>    
+            
+        </div>
+    </div>
+    <button id="back" onclick="window.history.back()">Go Back</button>
+
+    <script src="finalscript.js"></script>
+</body>
+</html>

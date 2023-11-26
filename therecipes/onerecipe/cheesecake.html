@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="finalstyle.css">
+    <title>Breakfast</title>
+    <style>
+        .image{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 540px;
+            background-image: url(images/cheesecake.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="intro">
+        <div class="image"></div>
+        <div class="brief">
+            <h1 style="padding-top: 12px;">Vanilla Cheesecake</h1>
+            <p style="opacity: 0.9;">Prep Time : 20 minutes&nbsp;|&nbsp;
+                Chilling Time : 8 hours &nbsp;|&nbsp;Total Time : 8 hours 20 minutes</p>
+        </div>
+        <p style="font-size: 18px; margin-top: 20px; text-align: center;">It has this creamy and smooth texture that is just so satisfying. 
+            Not overly sweet. It's a white canvas that you can flavor with whatever your heart desires.</p>
+        <div class="tags">
+            <p> Servings: 1 cake &nbsp;|&nbsp;
+                Calories : 367 &nbsp;|&nbsp;
+                Course: Dessert &nbsp;|&nbsp;
+                Cuisine: Greek &nbsp;|&nbsp;
+                Diet: vegetarian
+        </div>
+        <div class="options">
+            <button id="saveFile" onclick="printPage()">Print recipe&nbsp;&nbsp;<i class="fa-solid fa-download"></i></button>
+            <div class="share-container">
+                <button id="share-button" onclick="changeColor()">Share Recipe&nbsp;&nbsp;<i class="fa-solid fa-share"></i></button>
+                <div class="share-icons">
+                    <a href="#" id="facebook-share" style="color: rgb(0, 89, 255);"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" id="instagram-share" style="color: rgb(255, 0, 157);"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" id="whatsApp-share" style="color: rgb(0, 214, 0);"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="directions">
+        
+        <div class="ingredients">
+            <br/><h1>Ingredients</h1><br/><br/>
+            <p>The Base:<br/><br/>
+                1 ½ cup digestive <span class="color">biscuit</span> crumbs (150 g)<br/><br/>
+                ¼ cup unsalted <span class="color">butter</span> (60 g), melted<br/><br/>
+                The Filling<br/><br/>
+                16 oz full fat <span class="color">cream cheese</span> (450 g), room temperature<br/><br/>
+                ½ cup powdered<span class="color">sugar</span>  (60 g)<br/><br/>
+                2 teaspoon <span class="color">vanilla extract</span><br/><br/>
+                ½ cup <span class="color">whipping cream</span>, min 35% fat (125 ml), chilled<br/><br/>
+                Topping:<br/><br/>
+                some sweetened whipped cream<br/><br/>
+            </p>
+        </div><br/>
+
+        <div class="instructions">
+            <h1 style="margin-left: 40px;">Instructions</h1><br/>
+            <ol>
+                <li>&nbsp; Place digestive biscuits in a ziploc bag and bash into a fine mixture using a rolling pin. Pour into a bowl together with butter. Mix well.</li><br/>
+                <li>&nbsp; Pour into a 7 inch (18 cm) springform pan. Press evenly using the back of a spoon. Place in the freezer for 30 minutes.</li> <br/>
+                <li>&nbsp; Add cream cheese into another bowl and whisk until fluffy, using a handheld mixer.</li><br/>
+                <li>&nbsp; Now add in vanilla extract and powdered sugar. Mix until well combined. Set aside.</li><br/>
+                <li>&nbsp; In another bowl, whisk whipping cream until stiff peaks. Add into cream cheese mixture and gently fold everything together, using a spatula.</li><br/>
+                <li>&nbsp; Pour into prepared springform pan. Chill for minimum 8 hours or until fully set, in the coldest part of the fridge.</li><br/>
+                <li>&nbsp; Run a knife all around the cheesecake to help loosen it up. Release the spring and remove the ring. Run a knife all around under the cheesecake base to loosen it. Insert 2 big flat spatula underneath, on opposite direction.<br/>
+                <br/><li>&nbsp; Swiftly yet confidently lift up the cheesecake using the spatulas and place it on a serving plate. Slice and serve!</li><br/>
+            </ol>    
+            <p style="color: rgb(81, 164, 94); text-align: center;">enjoy with some fruits or berries.</p><br/>
+        </div>
+    </div>
+    <button id="back" onclick="window.history.back()">Go Back</button>
+
+    <script src="finalscript.js"></script>
+</body>
+</html>

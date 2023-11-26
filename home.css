@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+HTML{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 55px;
+    background-color: #ffffff;
+}
+.header{
+    display: flex;
+}
+.logo{
+    width: 204px;
+    height: 100%;
+}
+.home{
+    margin: 10px 10px 10px 900px;
+    padding: 10px;
+}
+.home:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.about{
+    margin: 10px;
+    padding: 10px;
+}
+.about:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.help{
+    margin: 10px;
+    padding: 10px;
+}
+.help:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.connect{
+    margin: 10px;
+    padding: 10px;
+}
+.connect:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.hero__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 92vh;
+    background-image: url("hero-image.jpeg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+}
+.hero__text {
+    top: 40%;
+    left: 30%;
+    position: absolute;
+}
+h1 {
+    font-size: 50px;
+    color: black;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 22px;
+    text-shadow: 2px 2px 20px white;
+}
+form{
+    width: 600px;
+    height: 50px;
+    display: flex;
+}
+form input{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    outline: none;
+    text-indent: 15px;
+    font-size: 20px;
+}
+form button{
+    background: seagreen;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    opacity: 0.9;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#search{
+    width: 95%;
+}
+#searchResults{
+    position: absolute;
+    width: 523px;
+    max-height: 300px;
+    overflow: hidden;
+    background-color: white;
+    border-top: 1px solid grey;
+    border-radius: 10px 0 10px 10px;
+    display: none;
+    z-index: 1;
+    overflow-y: auto;
+}
+#searchResults ul{
+    list-style-type: none;
+}
+#searchResults ul li{
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #5555557d;
+}
+#searchResults ul li:last-child{
+    border-bottom: none;
+}
+#searchResults ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+#searchResults div {
+    margin: 10px 0 10px 0;
+    text-align: center;
+    text-shadow: none;
+    font-weight: bold;
+    color: grey;
+}
+
+#searchResults div.no-results {
+    margin: 10px 0 10px 0;
+    text-align: center;
+    font-weight: normal;
+    color: grey;
+    padding-bottom: 10px;
+}
+.hero__text p{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    text-shadow: 12px 2px 12px black;
+}
+.recipe-by{
+    margin-top: 50px;
+    text-align: center;
+}
+.categories{
+    position: relative;
+    width: 100%;
+    height: 20vh;
+}
+.breakfast{
+    position: absolute;
+    top: 10px;
+    left: 12%;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.lunchdinner{
+    position: absolute;
+    top: 10px;
+    left: 32%;
+    
+    width: 250px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.desserts{
+    position: absolute;
+    top: 10px;
+    left: 52%;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.drinks{
+    position: absolute;
+    top: 10px;
+    left: 72%;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+#category-images1{
+    width: 208px;
+    height: 220px;
+    background-image: url(breakfast.webp);
+    background-size: cover;
+    box-shadow: 2px 1px 12px rgba(0, 0, 0, 0.257);
+    margin: 20px;
+    border-radius: 10px;
+}
+#category-images2{
+    width: 208px;
+    height: 220px;
+    background-image: url(lunch.jpg);
+    background-size: cover;
+    box-shadow: 2px 1px 12px rgba(0, 0, 0, 0.257);
+    margin: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+#category-images3{
+    width: 208px;
+    height: 220px;
+    background-image: url(dessert.webp);
+    box-shadow: 2px 1px 12px rgba(0, 0, 0, 0.257);
+    background-size: cover;
+    margin: 20px;
+    border-radius: 10px;
+}
+#category-images4{
+    width: 208px;
+    height: 220px;
+    background-image: url(drinks.webp);
+    background-size: cover;
+    box-shadow: 2px 1px 12px rgba(0, 0, 0, 0.257);
+    margin: 20px;
+    border-radius: 10px;
+}
+#myBtn {
+    width: 100%;
+    margin-top: 250px;
+    border: none;
+    outline: none;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    font-size: 18px;
+  }
+#myBtn:hover {
+background-color: #555;
+}
+footer{
+    width: 100%;
+    height: 200px;
+}
+.logo-end{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+    align-items: center;
+}
+.info{
+    border-top: 1px solid #555;
+    display: flex;
+    margin: auto;
+    width: 65%;
+}
+.faq{
+    margin: 0 0 0 75px;
+    cursor: pointer;
+}
+.info p:last-child{
+    padding-bottom: 20px;
+}
+.find-us{
+    float: left;
+}
+#social-icons{
+    font-size: 20px;
+    text-decoration: none;
+}
+.other{
+    float: left;
+    padding: 40px 0 0 200px;
+    cursor: pointer;
+}

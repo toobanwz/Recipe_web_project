@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="finalstyle.css">
+    <title>Breakfast</title>
+    <style>
+        .image{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 540px;
+            background-image: url(images/luqaimat.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="intro">
+        <div class="image"></div>
+        <div class="brief">
+            <h1 style="padding-top: 12px;">Luqaimat</h1>
+            <p style="opacity: 0.9;">minutesPrep Time : 15 minutes&nbsp;|&nbsp;
+                Cook Time : 10 minutes minutes&nbsp;|&nbsp;Total Time : 25 minutes </p>
+        </div>
+        <p style="font-size: 18px; margin-top: 20px; text-align: center;">A kind of Arabic sweet dumpling. 
+            Very famous dish that the Emaratis enjoy during Ramadan or other times.</p>
+        <div class="tags">
+            <p> Servings: 25 pieces &nbsp;|&nbsp;
+                Calories : 353 &nbsp;|&nbsp;
+                Course: Breakfast &nbsp;|&nbsp;
+                Cuisine: Indian &nbsp;|&nbsp;
+                Diet: Gluten-Free, Vegan
+        </div>
+        <div class="options">
+            <button id="saveFile" onclick="printPage()">Print recipe&nbsp;&nbsp;<i class="fa-solid fa-download"></i></button>
+            <div class="share-container">
+                <button id="share-button" onclick="changeColor()">Share Recipe&nbsp;&nbsp;<i class="fa-solid fa-share"></i></button>
+                <div class="share-icons">
+                    <a href="#" id="facebook-share" style="color: rgb(0, 89, 255);"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" id="instagram-share" style="color: rgb(255, 0, 157);"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" id="whatsApp-share" style="color: rgb(0, 214, 0);"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="directions">
+        
+        <div class="ingredients">
+            <br/><h1>Ingredients</h1><br/>
+            <p>1/2 cup All-purpose <span class="color">flour</span>/Maida<br/><br/>
+                1/4 cup + 2 tsp Luke-Warm Water (you may need less, depends on the flour you are using)<br/><br/>
+                1/2 tbsp <span class="color">Corn flour</span><br/><br/>
+                1/2 tbsp Instant Dry <span class="color">Yeast</span><br/><br/>
+                1/4 tbsp <span class="color">Sugar</span><br/><br/>
+                1/2 tsp <span class="color">Baking powder</span><br/><br/>
+                1/2 tbsp Oil + <span class="color">Oil</span> for Frying<br/><br/>
+                3 tbsp <span class="color">Chocolate Syrup</span><br/><br/>
+            </p>
+        </div><br/>
+
+        <div class="instructions">
+            <h1 style="margin-left: 40px;">Instructions</h1><br/>
+            <ol>
+                <li>&nbsp; Firstly, add 1/4 cup of luke-warm water in a bowl. Add-in 1/2 tbsp yeast and 1/4 tbsp sugar to the water.</li><br/>
+                <li>&nbsp; Mix well until sugar dissolves.</li> <br/>
+                <li>&nbsp; Now add in 1/2 cup maida flour, 1/2 tbsp corn flour, 1/2 tsp baking powder and start kneading.</li><br/>
+                <li>&nbsp; Gradually add 2 tsp water and mix well. You may need less or more water, depending on the flour you’re using.</li><br/>
+                <li>&nbsp; Then add 1/2 tbsp oil. Mix well.</li><br/>
+                <li>&nbsp; Cover and allow to rest for 15 to 20 minutes in a warm place till it has doubled in size.</li><br/>
+                <li>&nbsp; After 20 minutes, the dough has doubled in size. Mix to release the air bubbles.<br/>
+                <br/><li>&nbsp; Now heat oil in a kadai or pan and drop the batter by spoonful. Alternatively you can drop the batter in a zip lock bag. 
+                    Cut out the corner of the bag and push to get a small ball of the batter. Cut this batter using a scissor & drop this ball immediately in oil.</li><br/>
+                <li>&nbsp; Roll the dropped balls with a slotted spoon in oil for even cooking. Fry till they are dark golden brown in color. Remove from oil.</li><br/>
+                <li>&nbsp; Place them in a serving bowl and pour the chocolate syrup on top.</li><br/>
+                </ol>
+        </div>
+    </div>
+    <button id="back" onclick="window.history.back()">Go Back</button>
+
+    <script src="finalscript.js"></script>
+</body>
+</html>

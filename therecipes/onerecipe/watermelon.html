@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="finalstyle.css">
+    <title>Breakfast</title>
+    <style>
+        .image{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 540px;
+            background-image: url(images/Watermelon.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="intro">
+        <div class="image"></div>
+        <div class="brief">
+            <h1 style="padding-top: 12px;">Watermelon Agua Fresca</h1>
+            <p style="opacity: 0.9;">
+                minutesPrep Time : 15 minutes&nbsp;|&nbsp;
+                Total Time : 15 minutes 
+            </p>
+        </div>
+        <p style="font-size: 18px; margin-top: 20px; text-align: center;">
+            The Mexican Agua Fresca is simply a refreshing beverage/drink which does not contain any alcohol. Perfect to beat the heat during summers.
+        </p>
+        <div class="tags">
+            <p> Servings: 5 &nbsp;|&nbsp;
+                Calories : 78 &nbsp;|&nbsp;
+                Course: Breverages &nbsp;|&nbsp;
+                Cuisine: Mexican &nbsp;|&nbsp;
+                Diet: Gluten-Free, Vegetarian, low fat
+        </div>
+        <div class="options">
+            <button id="saveFile" onclick="printPage()">Print recipe&nbsp;&nbsp;<i class="fa-solid fa-download"></i></button>
+            <div class="share-container">
+                <button id="share-button" onclick="changeColor()">Share Recipe&nbsp;&nbsp;<i class="fa-solid fa-share"></i></button>
+                <div class="share-icons">
+                    <a href="#" id="facebook-share" style="color: rgb(0, 89, 255);"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" id="instagram-share" style="color: rgb(255, 0, 157);"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" id="whatsApp-share" style="color: rgb(0, 214, 0);"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="directions">
+        
+        <div class="ingredients">
+            <br/><h1>Ingredients</h1><br/>
+            <p>4 to 5 cups chopped <span class="color">watermelon</span> (deseeded)<br/><br/>
+                1 to 2 cups water or add as required<br/><br/>
+                ½ inch chopped <span class="color">ginger</span><br/><br/>
+                1 tablespoon <span class="color">lemon juice</span> or as required<br/><br/>
+                ¼ cup <span class="color">sugar</span> or add as required, optional<br/><br/>
+                5 to 7 <span class="color">ice</span> cubes (optional)<br/><br/>
+                for garnish:<br/><br/>
+                few <span class="color">mint leaves</span> or mint sprig  <br/><br/>
+                
+            </p>
+        </div><br/>
+
+        <div class="instructions">
+            <h1 style="margin-left: 40px;">Instructions</h1><br/>
+            <ol>
+                <li>&nbsp; Chop half of a large watermelon. If you prefer you can use the entire watermelon too. Remove the seeds while chopping watermelon. 
+                <li>&nbsp; Blend all the chopped watermelon cubes, ginger, lemon juice, sugar and water in a blender.</li> <br/>
+                <li>&nbsp; Keep a large bowl or pan below a medium mesh strainer.</li> <br/>
+                <li>&nbsp; Pour the juice on the strainer.</li> <br/>
+                <li>&nbsp; Press the pulp on the strainer with the back of a spoon so that the extra juice also filters through.</li> <br/>
+                <li>&nbsp; If you want you can skip this step of straining the juice.</li> <br/>
+                <li>&nbsp;  Discard the pulp.</li> <br/>
+                <li>&nbsp; Pour the agua fresca in glasses and add a few ice cubes if you like.</li> <br/>
+                <li>&nbsp; Serve watermelon agua fresca straight away garnished with lemon slices or mint sprigs. You can also enjoy the drink as is without the ice cubes and garnishes.</li> <br/>           
+            </ol>           
+        </div>
+    </div>
+    <button id="back" onclick="window.history.back()">Go Back</button>
+
+    <script src="finalscript.js"></script>
+</body>
+</html>

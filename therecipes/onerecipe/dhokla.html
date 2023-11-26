@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="finalstyle.css">
+    <title>Breakfast</title>
+    <style>
+        .image{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 540px;
+            background-image: url(images/Dhokla.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="intro">
+        <div class="image">
+            <img src="finalpics/Dhokla.jpg" alt="dhokla image">
+        </div>
+        <div class="brief">
+            <h1 style="padding-top: 12px;">Khaman Dhokla</h1>
+            <p style="opacity: 0.9;">minutesPrep Time : 30 minutes&nbsp;|&nbsp;
+                Cook Time : 20 minutes&nbsp;|&nbsp;Total Time : 50 minutes </p>
+        </div>
+        <p style="font-size: 18px; margin-top: 20px; text-align: center;">An extremely simple yet popular 
+            Gujarati snack recipe made with besan flour and a combination of herbs & spices.</p>
+        <div class="tags">
+            <p> Servings: 15 Pieces &nbsp;|&nbsp;
+                Calories : 124 &nbsp;|&nbsp;
+                Course: Breakfast/snack &nbsp;|&nbsp;
+                Cuisine: Gujarat &nbsp;|&nbsp;
+                Diet: Gluten-Free, Vegan
+        </div>
+        <div class="options">
+            <button id="saveFile" onclick="printPage()">Print recipe&nbsp;&nbsp;<i class="fa-solid fa-download"></i></button>
+            <div class="share-container">
+                <button id="share-button" onclick="changeColor()">Share Recipe&nbsp;&nbsp;<i class="fa-solid fa-share"></i></button>
+                <div class="share-icons">
+                    <a href="#" id="facebook-share" style="color: rgb(0, 89, 255);"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" id="instagram-share" style="color: rgb(255, 0, 157);"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" id="whatsApp-share" style="color: rgb(0, 214, 0);"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="directions">
+        
+        <div class="ingredients">
+            <br/><h1>Ingredients</h1><br/>
+            <p>2 cup <span class="color">besan</span> / gram flour<br/><br/>
+                ¼ tsp <span class="color">turmeric</span><br/><br/>
+                ¼ cup <span class="color">sugar</span><br/><br/>
+                ½ tsp salt<br/><br/>
+                1 cup water<br/><br/>
+                2 tbsp <span class="color">lemon juice</span><br/><br/>
+                2 tbsp <span class="color">oil</span><br/><br/>
+                1 tsp eno <span class="color">fruit salt</span><br/><br/>
+                OR TEMPERING:<br/><br/>
+                2 tbsp oil<br/><br/>
+                1 tsp <span class="color">mustard</span><br/><br/>
+                5 <span class="color">chilli</span>, sliced<br/><br/>
+                few <span class="color">curry leaves</span><br/><br/>
+                pinch <span class="color">hing</span><br/><br/>
+                ½ cup water<br/><br/>
+                2 tbsp sugar<br/><br/>
+                ¼ tsp salt<br/><br/>
+                OR GARNISHING:<br/><br/>
+                2 tbsp <span class="color">coriander</span>, chopped<br/><br/>
+                2 tbsp <span class="color">coconut</span>, grated<br/><br/></p>
+        </div><br/>
+        <div class="instructions">
+            <h1 style="margin-left: 40px;">Instructions</h1><br/>
+            <ol>
+                <li>&nbsp; Firstly, in a large bowl take 2 cup besan, ¼ tsp turmeric, ¼ cup sugar and ½ tsp salt.</li><br/>
+                <li>&nbsp; Mix well making sure everything is well combined.</li> <br/>
+                <li>&nbsp; Now add 1 cup water and mix well using a whisk.</li><br/>
+                <li>&nbsp; Add water as required and whisk for 5 minutes.</li><br/>
+                <li>&nbsp; Prepare a fluffy and light batter.</li><br/>
+                <li>&nbsp; Cover and rest for 15 minutes.</li><br/>
+                <li>&nbsp; Now add 2 tbsp lemon juice and 2 tbsp oil.<br/>
+                <br/><li>&nbsp; Continue to whisk for 5 more minutes to get a fluffy batter.</li><br/>
+                <li>&nbsp; Further, add 1 tsp eno fruit salt and 2 tbsp water.</li><br/>
+                <li>&nbsp; Mix gently until the batter turns frothy.</li><br/>
+                <li>&nbsp; Transfer the batter immediately to the greased tray.</li><br/>
+                <li>&nbsp; Place in a steamer and steam for 20 minutes.</li><br/>
+                <li>&nbsp; Now cut the dhokla into pieces.</li><br/>
+                <li>&nbsp; To prepare the tempering, heat 2 tbsp oil. add 1 tsp mustard, 5 chilli, a few curry leaves, pinch hing, and splutter the tempering.</li><br/>
+                <li>&nbsp; Further add ½ cup water, 2 tbsp sugar, and ¼ tsp salt.</li><br/>
+                <li>&nbsp; Mix and boil for 2 minutes, making sure everything is well combined.</li><br/>
+                <li>&nbsp; Pour the tempering over the dhokla and rest for 20 minutes so that the dhokla absorbs all the water.</li><br/>
+                <li>&nbsp; Before serving, top with 2 tbsp coriander and 2 tbsp coconut.</li><br/>
+                <li>&nbsp; Finally, enjoy nylon khaman dhokla recipe with green chutney.
+                </li><br/>
+            </ol>    
+            <p style="color: rgb(81, 164, 94); text-align: center;">Tastes great when served with spicy green chutney and imli chutney.</p><br/>
+        </div>
+    </div>
+    <button id="back" onclick="window.history.back()">Go Back</button>
+
+    <script src="finalscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="finalstyle.css">
+    <title>Breakfast</title>
+    <style>
+        .image{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 540px;
+            background-image: url(images/dosa.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="intro">
+        <div class="image"></div>
+        <div class="brief">
+            <h1 style="padding-top: 12px;">Masala Dosa</h1>
+            <p style="opacity: 0.9;">minutesPrep Time : 8 hours 20 minutes&nbsp;|&nbsp;
+                Cook Time : 45 minutes&nbsp;|&nbsp;Total Time : 9 hours 5 minutes </p>
+        </div>
+        <p style="font-size: 18px; margin-top: 20px; text-align: center;">an easy and popular, tasty south 
+            indian staple breakfast recipe made with rice and urad dal.</p>
+        <div class="tags">
+            <p> Servings: 30 Pieces &nbsp;|&nbsp;
+                Calories : 40 &nbsp;|&nbsp;
+                Course: Breakfast/Lunch/Dinner &nbsp;|&nbsp;
+                Cuisine: South Indian &nbsp;|&nbsp;
+                Diet: Gluten-Free, Vegan
+        </div>
+        <div class="options">
+            <button id="saveFile" onclick="printPage()">Print recipe&nbsp;&nbsp;<i class="fa-solid fa-download"></i></button>
+            <div class="share-container">
+                <button id="share-button" onclick="changeColor()">Share Recipe&nbsp;&nbsp;<i class="fa-solid fa-share"></i></button>
+                <div class="share-icons">
+                    <a href="#" id="facebook-share" style="color: rgb(0, 89, 255);"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" id="instagram-share" style="color: rgb(255, 0, 157);"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" id="whatsApp-share" style="color: rgb(0, 214, 0);"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="directions">
+        
+        <div class="ingredients">
+            <br/><h1>Ingredients</h1><br/>
+            <p>for batter:<br/><br/>
+                3 cup <span class="color">sona masuri rice</span><br/><br/>
+                ½ tsp <span class="color">methi</span> / fenugreek seeds<br/><br/>
+                water, for soaking<br/><br/>
+                1 cup <span class="color">urad dal</span><br/><br/>
+                2 tbsp <span class="color">toor dal</span><br/><br/>
+                2 tbsp <span class="color">chana dal</span><br/><br/>
+                1 cup <span class="color">poha</span> / avalakki, rinsed<br/><br/>
+                for aloo bhaji:<br/><br/>
+                2 tbsp <span class="color">oil</span><br/><br/>
+                1 tsp <span class="color">mustard</span><br/><br/>
+                1 tsp <span class="color">urad dal</span><br/><br/>
+                1 tsp <span class="color">chana dal</span><br/><br/>
+                1 dried <span class="color">red chilli</span><br/><br/>
+                few <span class="color">curry leaves</span><br/><br/>
+                pinch <span class="color">hing</span> / asafoetida<br/><br/>
+                2 <span class="color">chilli</span>, finely chopped<br/><br/>
+                1 inch <span class="color">ginger</span>, finely chopped<br/><br/>
+                1 <span class="color">onion</span>, sliced<br/><br/>
+                ¼ tsp <span class="color">turmeric</span><br/><br/>
+                1 tsp salt<br/><br/>
+                3  <span class="color">potato,</span>boiled & mashed<br/><br/>
+                2 tbsp <span class="color">coriander</span>, finely chopped<br/><br/>
+                2 tbsp <span class="color">lemon juice</span><br/><br/>
+            </p>
+        </div><br/>
+        <div class="instructions">
+            <h1 style="margin-left: 40px;">Instructions</h1><br/>
+            <ol>
+                <li>&nbsp; firstly, in a large bowl take 3 cup sona masuri rice and ½ tsp methi.</li><br/>
+                <li>&nbsp; rinse well and soak in enough water for 4 hours.</li> <br/>
+                <li>&nbsp; in another bowl take 1 cup urad dal, 2 tbsp toor dal and 2 tbsp chana dal.</li><br/>
+                <li>&nbsp; rinse well and soak in enough water for 2 hours.</li><br/>
+                <li>&nbsp; after soaking dal for 2 hours, drain off the water and transfer to the grinder. you can also grind in mixi if you do not have access to a grinder.</li><br/>
+                <li>&nbsp; add water as required and blend to smooth paste.</li><br/>
+                <li>&nbsp; scrape sides. the smooth and fluffy batter will be ready after 40 minutes.<br/>
+                <br/><li>&nbsp; transfer the batter to a large vessel and keep aside.</li><br/>
+                <li>&nbsp; in the same grinder add soaked rice and 1 cup rinsed poha.</li><br/>
+                <li>&nbsp; add water slowly and scrape the sides. blend to a coarse paste.</li><br/>
+                <li>&nbsp; transfer the rice batter to the same urad dal batter.</li><br/>
+                <li>&nbsp; mix well making sure everything is well combined.</li><br/>
+                <li>&nbsp; ferment in a warm place for at least 8 hours or until the batter doubles in volume. if you are living in a cold climate, then you can place the batter 
+                    in the warm oven (just heat the oven until it turns slightly warm and then turn off) to ferment.</li><br/>
+                <li>&nbsp; once the batter is well fermented, mix gently, without disturbing the air pockets.</li><br/>
+                <li>&nbsp; transfer 4 cups of fermented batter to a small bowl and add 1 tsp salt.</li><br/>
+                <li>&nbsp; mix well until the salt is well combined. masala dosa batter is ready. keep aside.</li><br/>
+                </li><br/>
+            </ol>    
+            <p style="color: rgb(81, 164, 94); text-align: center;">Tastes great with coconut chutney and sambar.</p><br/>
+        </div>
+    </div>
+    <button id="back" onclick="window.history.back()">Go Back</button>
+
+    <script src="finalscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="finalstyle.css">
+    <title>Breakfast</title>
+    <style>
+        .image{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 540px;
+            background-image: url(images/appleroll.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="intro">
+        <div class="image"></div>
+        <div class="brief">
+            <h1 style="padding-top: 12px;">Apple Cinnamon rolls</h1>
+            <p style="opacity: 0.9;">Prep Time : 40 mins&nbsp;|&nbsp;
+                Cook Time : 30 mins&nbsp;|&nbsp;Proof Time : 1 hr 30 mins&nbsp;|&nbsp;Total Time : 2 hrs 40 mins </p>
+        </div>
+        <p style="font-size: 18px; margin-top: 20px; text-align: center;">Easy apple cinnamon rolls with generous goey apple filling bursting with cinnamon flavor. 
+            These soft and fluffy rolls are topped with delicious cream cheese frosting and are simply irresistible.</p>
+        <div class="tags">
+            <p> Servings: 12 pieces &nbsp;|&nbsp;
+                Calories : 513 &nbsp;|&nbsp;
+                Course: Dessert &nbsp;|&nbsp;
+                Cuisine: International &nbsp;|&nbsp;
+                Diet: vegetarian
+        </div>
+        <div class="options">
+            <button id="saveFile" onclick="printPage()">Print Recipe&nbsp;&nbsp;<i class="fa-solid fa-download"></i></button>
+            <div class="share-container">
+                <button id="share-button" onclick="changeColor()">Share Recipe&nbsp;&nbsp;<i class="fa-solid fa-share"></i></button>
+                <div class="share-icons">
+                    <a href="#" id="facebook-share" style="color: rgb(0, 89, 255);"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" id="instagram-share" style="color: rgb(255, 0, 157);"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" id="whatsApp-share" style="color: rgb(0, 214, 0);"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="directions">
+        
+        <div class="ingredients">
+            <br/><h1>Ingredients</h1><br/>
+            <p>Dough:<br/><br/>
+                4 ½ cup <span class="color"> </span> bread flour<br/><br/>
+                1 teaspoon salt<br/><br/>
+                1 large <span class="color">egg</span>, room temperature<br/><br/>
+                ⅓ cup unsalted <span class="color"> butter</span> , melted<br/><br/>
+                2 tablespoon <span class="color">honey </span> <br/><br/>
+                1 cup <span class="color">whole milk</span>  , warm<br/><br/>
+                1 tablespoon instant <span class="color">dry yeast</span> <br/><br/>
+                zest of 1 orange , optional but highly recommended<br/><br/>
+                Apple Filling:<br/><br/>
+                4 Gala or Granny Smith <span class="color"> apples </span> , cut into small cubes of 4 cups<br/><br/>
+                2 tablespoon unsalted butter<br/><br/>
+                Cinnamon Sugar:<br/><br/> 
+                ⅓ cup unsalted butter ,softened for spreading<br/><br/>
+                ⅓ cup granulated <span class="color">sugar </span> <br/><br/>
+                ⅓ cup brown sugar<br/><br/>
+                1 tablespoon <span class="color">cinnamon powder </span> <br/><br/>
+                Cream Cheese Frosting:<br/><br/>
+                4 oz full-fat <span class="color"> cream cheese</span>  , room temperature<br/><br/>
+                2 tablespoon unsalted butter , room temperature<br/><br/>
+                1 teaspoon <span class="color"> vanilla extract</span> <br/><br/>
+                1 ½ cup powdered sugar , sifted<br/><br/>
+                Other<br/><br/>
+                some melted butter , for brushing the rolls before baking<br/><br/>
+        </div><br/>
+
+        <div class="instructions">
+            <h1 style="margin-left: 40px;">Instructions</h1><br/>
+            <ol>
+                <li>&nbsp; Add bread flour, salt, honey, egg, melted butter, warm milk, and instant yeast into the standing mixer bowl. Knead for 10 minutes using speed 2, using a dough hook.</li><br/>
+                <li>&nbsp; Make the dough into a ball and place it in a bowl that's lightly greased. Cover the bowl tightly with cling film. Let the dough rise to double its size. It'll take around 1-2 hours.</li> <br/>
+                <li>&nbsp; While the dough is rising, cook the diced apples with butter in a pan, on medium-high heat, for 5-10 minutes or until they get soft, but not mushy. Cool completely before using.</li><br/>
+                <li>&nbsp; Mix granulated sugar, brown sugar, and cinnamon powder in a bowl. Set aside.</li><br/>
+                <li>&nbsp; Roll the dough on a lightly floured kitchen top, to an 18x12-inch rectangle (45x30cm). Spread ⅓ cup softened butter on top, sprinkle with cinnamon sugar mixture, followed with the apple filling.</li><br/>
+                <li>&nbsp; Roll into a somewhat tight log from the longest end, and cut it into 12 equal pieces with a sharp knife.</li><br/>
+                <li>&nbsp; Arrange the rolls in a buttered 13x9-inch pan (33x23cm). Cover loosely with a cling film and let the rolls rise to double their size, for around 30-45 minutes<br/>
+                <br/><li>&nbsp; Brush the top with melted butter. Bake in a preheated oven at 400℉ (200℃), on the middle rack, for 30-35 minutes or until golden brown.</li><br/>
+                <li>&nbsp; While the rolls are baking, make the frosting. Mix cream cheese, butter, and vanilla extract with a stand mixer for 1-2 minutes until well combined, using a paddle attachment.</li><br/>
+                <li>&nbsp; Gradually add in powdered sugar and mix well after each addition. Chill in the fridge while not using. Frost the apple cinnamon rolls either while they're still warm or completely cool. Enjoy!</li><br/>
+                <li>&nbsp; finally, serve ven pongal/khara pongal with coconut chutney and sambar.</li><br/>
+            </ol>    
+             
+        </div>
+    </div>
+    <button id="back" onclick="window.history.back()">Go Back</button>
+
+    <script src="finalscript.js"></script>
+</body>
+</html>

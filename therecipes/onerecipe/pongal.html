@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="finalstyle.css">
+    <title>Breakfast</title>
+    <style>
+        .image{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 540px;
+            background-image: url(images/pongal.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="intro">
+        <div class="image"></div>
+        <div class="brief">
+            <h1 style="padding-top: 12px;">Pongal</h1>
+            <p style="opacity: 0.9;">minutesPrep Time : 5 minutes&nbsp;|&nbsp;
+                Cook Time : 20 minutes minutes&nbsp;|&nbsp;Total Time : 25 minutes </p>
+        </div>
+        <p style="font-size: 18px; margin-top: 20px; text-align: center;">Pongal is a popular south indian savoury and spicy dish, 
+            made from moong dal, rice and other spices, typically served for morning breakfast.</p>
+        <div class="tags">
+            <p> Servings: 2 &nbsp;|&nbsp;
+                Calories : 353 &nbsp;|&nbsp;
+                Course: Breakfast &nbsp;|&nbsp;
+                Cuisine: Indian &nbsp;|&nbsp;
+                Diet: Gluten-Free, Vegan
+        </div>
+        <div class="options">
+            <button id="saveFile" onclick="printPage()">Print recipe&nbsp;&nbsp;<i class="fa-solid fa-download"></i></button>
+            <div class="share-container">
+                <button id="share-button" onclick="changeColor()">Share Recipe&nbsp;&nbsp;<i class="fa-solid fa-share"></i></button>
+                <div class="share-icons">
+                    <a href="#" id="facebook-share" style="color: rgb(0, 89, 255);"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" id="instagram-share" style="color: rgb(255, 0, 157);"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" id="whatsApp-share" style="color: rgb(0, 214, 0);"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="directions">
+        <div class="ingredients">
+            <br/><h1>Ingredients</h1><br/>
+            <p>1 tsp <span class="color">ghee</span> / clarified butter<br/><br/>
+                ½ cup <span class="color">rice</span>, rinsed<br/><br/>
+                ½ cup <span class="color">moong dal</span>, rinsed<br/><br/>
+                4 cup water<br/><br/>
+                ½ tsp salt<br/><br/>
+                for tempering:
+                2 tbsp ghee / clarified butter<br/><br/>
+                1 tsp <span class="color">cumin</span> / jeera<br/><br/>
+                ½ tsp <span class="color">pepper</span>, crushed<br/><br/>
+                1 inch <span class="color">ginger</span>, finely chopped<br/><br/>
+                2 <span class="color">chilli</span>, slit<br/><br/>
+                10 <span class="color">cashew</span> / kaju, halves<br/><br/>
+                pinch <span class="color">hing</span> / asafoetida</p>
+        </div><br/>
+
+        <div class="instructions">
+            <h1 style="margin-left: 40px;">Instructions</h1><br/>
+            <ol>
+                <li>&nbsp; firstly, in a pressure cooker heat 1 tsp ghee.</li><br/>
+                <li>&nbsp; add ½ cup rice, ½ cup moong dal and saute for a minute or until it turns aromatic.</li> <br/>
+                <li>&nbsp; further, add 4 cup water and ½ tsp salt. mix well.</li><br/>
+                <li>&nbsp; cover and pressure cook for 5 whistles on medium flame.</li><br/>
+                <li>&nbsp; once the pressure settles down, open the cooker and give a good mix.</li><br/>
+                <li>&nbsp; furthermore, in a pan heat 2 tbsp ghee.</li><br/>
+                <li>&nbsp; also add 1 tsp cumin, ½ tsp pepper, 1 inch ginger, 2 chilli, 10 cashew and pinch hing.<br/>
+                <br/><li>&nbsp; saute on low flame until cashew turns golden brown.</li><br/>
+                <li>&nbsp; pour the tempering over cooked rice and dal mixture.</li><br/>
+                <li>&nbsp; give a good mix, add more ghee if required.</li><br/>
+                <li>&nbsp; finally, serve ven pongal/khara pongal with coconut chutney and sambar.</li><br/>
+            </ol>    
+            <p style="color: rgb(81, 164, 94); text-align: center;">Serve with side dished like sambar and coconut based chutneys.</p><br/>
+        </div>
+    </div>
+    <button id="back" onclick="window.history.back()">Go Back</button>
+
+    <script src="finalscript.js"></script>
+</body>
+</html>

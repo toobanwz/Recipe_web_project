@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="finalstyle.css">
+    <title>Breakfast</title>
+    <style>
+        .image{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 540px;
+            background-image: url(images/chai.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="intro">
+        <div class="image"></div>
+        <div class="brief">
+            <h1 style="padding-top: 12px;">Masala Chai</h1>
+            <p style="opacity: 0.9;">minutesPrep Time : 1 minutes&nbsp;|&nbsp;
+                Cook Time : 9 minutes&nbsp;|&nbsp;Total Time : 10 minutes </p>
+        </div>
+        <p style="font-size: 18px; margin-top: 20px; text-align: center;">
+            A fragrantly spiced Masala chai that is perfect for breakfast or your evening tea. Masala Chai also known as Masala Tea is a hot beverage.
+        </p>
+        <div class="tags">
+            <p> Servings: 2 &nbsp;|&nbsp;
+                Calories : 59 &nbsp;|&nbsp;
+                Course: Breverages/Breakfast &nbsp;|&nbsp;
+                Cuisine: Indian &nbsp;|&nbsp;
+                Diet: Gluten-Free, Vegetarian
+        </div>
+        <div class="options">
+            <button id="saveFile" onclick="printPage()">Print recipe&nbsp;&nbsp;<i class="fa-solid fa-download"></i></button>
+            <div class="share-container">
+                <button id="share-button" onclick="changeColor()">Share Recipe&nbsp;&nbsp;<i class="fa-solid fa-share"></i></button>
+                <div class="share-icons">
+                    <a href="#" id="facebook-share" style="color: rgb(0, 89, 255);"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" id="instagram-share" style="color: rgb(255, 0, 157);"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" id="whatsApp-share" style="color: rgb(0, 214, 0);"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="directions">
+        
+        <div class="ingredients">
+            <br/><h1>Ingredients</h1><br/>
+            <p>Main Ingredients<br/><br/>
+
+                2 cups water<br/><br/>
+                4 teaspoons raw <span class="color">sugar</span> or add as per taste<br/><br/>
+                2 teaspoons black <span class="color">tea</span> <br/><br/>
+                ¼ cup <span class="color">milk</span> or add as per taste<br/><br/>
+                Spices (Masala):<br/><br/>
+                1 inch true <span class="color">cinnamon</span><br/><br/>
+                2 to 3 <span class="color">green cardamoms</span><br/><br/>
+                2 <span class="color">cloves</span><br/><br/>
+                1 inch <span class="color">ginger</span><br/><br/>
+            </p>
+        </div><br/>
+
+        <div class="instructions">
+            <h1 style="margin-left: 40px;">Instructions</h1><br/>
+            <ol>
+                <li>&nbsp; Take cinnamon, green cardamoms, cloves and peeled ginger in a mortar-pestle.</li><br/>
+                <li>&nbsp; Crush coarsely and set aside.</li> <br/>
+                <li>&nbsp; In a sauce pan or a small pan with a handle, heat water.</li><br/>
+                <li>&nbsp; Let the water come to a boil and then add the crushed spices.</li><br/>
+                <li>&nbsp; Boil the spices along with the water for 2 to 3 minutes.</li><br/>
+                <li>&nbsp; Add sugar as per taste. I usually add 4 teaspoons of raw sugar. You can add more or less.</li><br/>
+                <li>&nbsp; Now add 2 teaspoons of assam tea powder. Boil for a minute. This boiling time depends on how strong you want your tea. If you prefer a strong intense tea, then boil for a few more minutes.<br/>
+                <br/><li>&nbsp; Add milk. After adding milk boil for 2 to 3 minutes.</li><br/>
+                <li>&nbsp; If using chilled milk, then boil with tea for 2 to 3 minutes. If using hot milk, then add the milk and switch off the heat.</li><br/>
+                <li>&nbsp; Pour the tea through a tea strainer directly in the cup.</li><br/>
+                <li>&nbsp; Serve masala chai hot with some Indian snacks or cookies or biscuits.</li><br/>
+            </ol>    
+            
+        </div>
+    </div>
+    <button id="back" onclick="window.history.back()">Go Back</button>
+
+    <script src="finalscript.js"></script>
+</body>
+</html>

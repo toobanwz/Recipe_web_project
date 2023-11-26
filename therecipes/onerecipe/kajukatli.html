@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="finalstyle.css">
+    <title>Breakfast</title>
+    <style>
+        .image{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 540px;
+            background-image: url(images/kajukatli.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="intro">
+        <div class="image"></div>
+        <div class="brief">
+            <h1 style="padding-top: 12px;">Kaju Katli</h1>
+            <p style="opacity: 0.9;">minutesPrep Time : 5 minutes&nbsp;|&nbsp;
+                Cook Time : 15 minutes minutes&nbsp;|&nbsp;Total Time : 20 minutes </p>
+        </div>
+        <p style="font-size: 18px; margin-top: 20px; text-align: center;">It is perhaps one of the popular Indian sweet recipes 
+            which are made for all celebrations, occasions and festival seasons.</p>
+        <div class="tags">
+            <p> Servings: 40 pieces &nbsp;|&nbsp;
+                Calories : 56 &nbsp;|&nbsp;
+                Course: Sweet &nbsp;|&nbsp;
+                Cuisine: Indian &nbsp;|&nbsp;
+                Diet: Gluten-Free
+        </div>
+        <div class="options">
+            <button id="saveFile" onclick="printPage()">Print recipe&nbsp;&nbsp;<i class="fa-solid fa-download"></i></button>
+            <div class="share-container">
+                <button id="share-button" onclick="changeColor()">Share Recipe&nbsp;&nbsp;<i class="fa-solid fa-share"></i></button>
+                <div class="share-icons">
+                    <a href="#" id="facebook-share" style="color: rgb(0, 89, 255);"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" id="instagram-share" style="color: rgb(255, 0, 157);"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" id="whatsApp-share" style="color: rgb(0, 214, 0);"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="directions">
+        
+        <div class="ingredients">
+            <br/><h1>Ingredients</h1><br/> 
+            <p>2 cup <span class="color">cashew</span> / kaju<br/><br/>
+                1 cup <span class="color">sugar</span><br/><br/>
+                ½ cup water<br/><br/>
+                1 tsp <span class="color">ghee</span> / clarified butter<br/><br/>
+                ¼ tsp <span class="color">cardamom powder</span><br/><br/>
+            </p>
+        </div><br/>
+
+        <div class="instructions">
+            <h1 style="margin-left: 40px;">Instructions</h1><br/>
+            <ol>
+                <li>&nbsp; firstly, in a mixi take 2 cup cashew and blend to a fine powder. make sure to pulse and blend else, the cashew will release oil and turns into a paste.</li><br/>
+                <li>&nbsp; sieve the cashew powder making sure there are no lumps. keep aside.</li> <br/>
+                <li>&nbsp; in a large kadai take 1 cup sugar and ½ cup water.</li><br/>
+                <li>&nbsp; stir well and dissolve sugar. boil for 5 minutes or until 1 string consistency is attained.</li><br/>
+                <li>&nbsp; add in powdered cashew and mix well.</li><br/>
+                <li>&nbsp; stir continuously until the mixture is well combined and smooth paste is formed.</li><br/>
+                <li>&nbsp; now add 1 tsp ghee and ¼ tsp cardamom powder. mix well.<br/>
+                <br/><li>&nbsp; continue to cook until the mixture turns smooth paste and starts to separate pan slightly. do not overcook, as the burfi will turn hard.</li><br/>
+                <li>&nbsp; transfer the mixture on to the butter paper. make sure to grease the butter paper with ghee.</li><br/>
+                <li>&nbsp; now fold using a spatula until the mixture thickens forming a dough.</li><br/>
+                <li>&nbsp; once the dough is formed, knead slightly, to form a soft dough.</li><br/>
+                <li>&nbsp; place the cashew dough between butter paper and roll using a rolling pin.</li><br/>
+                <li>&nbsp; roll slightly thick making sure it's uniform.</li><br/>
+                <li>&nbsp; now grease with ghee and apply silver leaf or silver vark. applying vark is optional.</li><br/>
+                <li>&nbsp; now cut into diamond shape or shape of your choice.</li><br/>
+                <li>&nbsp; finally, enjoy kaju katli for a month when stored in an airtight container.  </li><br/>  
+            </ol>    
+           
+        </div>
+    </div>
+    <button id="back" onclick="window.history.back()">Go Back</button>
+
+    <script src="finalscript.js"></script>
+</body>
+</html>

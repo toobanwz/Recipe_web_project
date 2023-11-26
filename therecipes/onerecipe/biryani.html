@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="finalstyle.css">
+    <title>Breakfast</title>
+    <style>
+        .image{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 540px;
+            background-image: url(images/biryani.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="intro">
+        <div class="image"></div>
+        <div class="brief">
+            <h1 style="padding-top: 12px;">Chicken Biryani</h1>
+            <p style="opacity: 0.9;">minutesPrep Time : 1 hour&nbsp;|&nbsp;
+                Cook Time : 25 minutes minutes&nbsp;|&nbsp;Total Time : 1 hour 25 minutes </p>
+        </div>
+        <p style="font-size: 18px; margin-top: 20px; text-align: center;">juicy pieces of chicken are cooked 
+            in a yogurt marinade and then layered with crispy onions, coriander, mint and basmati rice to give 
+            you a dish that the entire family will enjoy. </p>
+        <div class="tags">
+            <p> Servings: 4 &nbsp;|&nbsp;
+                Calories : 721 &nbsp;|&nbsp;
+                Course: Lunch/Dinner &nbsp;|&nbsp;
+                Cuisine: North Indian &nbsp;|&nbsp;
+                Diet: Non-vegetarian
+        </div>
+        <div class="options">
+            <button id="saveFile" onclick="printPage()">Print recipe&nbsp;&nbsp;<i class="fa-solid fa-download"></i></button>
+            <div class="share-container">
+                <button id="share-button" onclick="changeColor()">Share Recipe&nbsp;&nbsp;<i class="fa-solid fa-share"></i></button>
+                <div class="share-icons">
+                    <a href="#" id="facebook-share" style="color: rgb(0, 89, 255);"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" id="instagram-share" style="color: rgb(255, 0, 157);"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" id="whatsApp-share" style="color: rgb(0, 214, 0);"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="directions">
+        
+        <div class="ingredients">
+            <br/><h1>Ingredients</h1><br/><span class="color"></span>
+            <p>Brown <span class="color">Onions</span> (Note 1)<br/><br/>
+                2 Onions Large<br/><br/>
+                ½ cup Vegetable <span class="color">Oil</span><br/><br/>
+                Chicken Marinade:<br/><br/>
+                700 grams <span class="color">Chicken</span> Thighs and Drumsticks bone-in and skinless (Note 2)<br/><br/>
+                ¾ cup <span class="color">Yogurt</span> or <span class="color"></span>hung curd<br/><br/>
+                ¼ cup <span class="color">Tomato</span> Puree<br/><br/>
+                ¼ cup Vegetable Oil<br/><br/>
+                1 tablespoon <span class="color">Ginger Garlic Paste</span> minced ginger and garlic<br/><br/>
+                1 tablespoon <span class="color">Red Chilli Powder</span> sub with 1 teaspoon Paprika + 1 teaspoon Cayenne<br/><br/>
+                1 teaspoon <span class="color">Turmeric</span> Powder<br/><br/>
+                1 teaspoon <span class="color">Garam Masala</span> Powder<br/><br/>
+                2 tablespoon Brown Onions<br/><br/>
+                1 ¼ teaspoon Salt<br/><br/>
+                Saffron:<br/><br/>
+                2 tablespoon <span class="color">Hot Milk</span><br/><br/>
+                10-15 <span class="color">Saffron</span> strands<br/><br/>
+                parboiled Rice (70% cooked):<br/><br/>
+                2 cups <span class="color">Rice</span>Basmati  Note 3<br/><br/>
+                6 cups Water<br/><br/>
+                2 tablespoon Salt<br/><br/>
+                1 <span class="color">Bayleaf</span><br/><br/>
+                5-6 <span class="color">Cloves</span><br/><br/>
+                2-3 <span class="color">Cardamom</span> Pods<br/><br/>
+                Other Biryani Ingredients:<br/><br/>
+                1 cup <span class="color">Mint Leaves</span> fresh<br/><br/>
+                1 cup <span class="color">Coriander Leaves</span> Cilantro<br/><br/>
+                1 ½ tablespoons <span class="color">Ghee</span> or Butter<br/><br/>
+                To Serve:<br/><br/>
+                Crispy Brown Onions<br/><br/>
+                Onion Raita<br/><br/>
+            </p>
+        </div><br/>
+        <div class="instructions">
+            <h1 style="margin-left: 40px;">Instructions</h1><br/>
+            <ol>
+                <li>&nbsp; To make the brown onions, pat the onions dry and if time permits, leave them out on a kitchen towel for 15-20 minutes to dry them out slightly. </li><br/>
+                <li>&nbsp; Heat oil in a pan and add the onions. On a medium flame, shallow fry the onions for 15 minutes till they are a deep golden brown, without burning them. </li> <br/>
+                <li>&nbsp; Drain them out on a paper towel, and set aside. These can be made ahead and stored in an air tight container overnight. </li><br/>
+                <li>&nbsp; Mix together all the ingredients under chicken marinade and marinate for at least two hours or overnight for best results.</li><br/>
+                <li>&nbsp; When you are ready to make the biryani, soak saffron strands in hot milk and rub them slightly with the back of a spoon. Set this aside.</li><br/>
+                <li>&nbsp; Bring water to a roaring boil and add salt, whole spices and basmati rice. Cook for exactly 5 minutes and drain completely, leaving the whole spices in the rice.</li><br/>
+                <li>&nbsp; This will cook the rice to about 70% doneness which can be checked by pressing a grain of rice between two fingers - the rice should still be raw in the middle.<br/>
+                <br/><li>&nbsp; Layering and Cooking Chicken Biryani: 
+                    Heat a heavy bottomed pot like a dutch oven, and add the chicken to it. Cook for 4 minutes and then turn the chicken pieces once. 
+                    Cover and cook for another 3 minutes. Turn off the heat. Scatter half the onions all over the chicken, and then sprinkle all the coriander 
+                    and mint leaves. Next layer the rice all over the mint and coriander, and in the end drizzle saffron milk and ghee all over the rice. Cover and cook on a low flame for 20 minutes - this will help steam the rice, cook it to doneness and cook the chicken.</li><br/>
+                <li>&nbsp; Once the biryani is cooked, let it rest for 5-10 minutes, and finish by scattering the remaining onions on top. Serve hot digging the spoon deep to get all the layers.
+                </li><br/>
+            </ol>    
+            <p style="color: rgb(81, 164, 94); text-align: center;">Tastes good with onion raita.</p><br/>
+        </div>
+    </div>
+    <button id="back" onclick="window.history.back()">Go Back</button>
+
+    <script src="finalscript.js"></script>
+</body>
+</html>
